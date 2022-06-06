@@ -11,33 +11,27 @@ In applications such as weather forecasting and the prevention of natural disast
 <p align="center">
   <img width="80%" height="auto" src="resources/fig4.png">
 </p>
-<p align="center">
+
 The base prediction model is adpapted from vector autoregression (VAR) model which consider about the correlation of multiple viariant. For our task, the variants are data from nearby stations. As shown in above figure,  as the window sliding, if the data of target station is out of the range of the threshold, it would be considered as abnomal data, otherwise as the normal data.
-</p>
 
 
 <p align="center">
-  <img width="50%" height="auto" src="resources/fig5.png">
+  <img width="80%" height="auto" src="resources/fig5.png">
 </p>
 
 The overall flowchart of our meteorological data anomaly detection system. First determine whether the current data is empty, if it is empty, it will be supplemented with the data of the previous moment. If it is not empty, the data is sent to the VAR model, and then the current predicted value is obtained. If the current given value is within the predicted range, it is classified to be normal (predicted label=0). If it is not within the range, It is classified as abnormal (predicted label=1). In addition, our system will also refer to other detection indicators (QC Flag), the purpose is to comprehensively analysize the data of each sensor to make the results more accurate. If the comprehensive predicted results are consistent with the predicted results, the predicted results will be retained. If they are inconsistent, they will be automatically visualized. The current data is then handed over to manual inspection.
 
 
 
-# COVID-19 CT Infection Segmentation Results
+# Anomaly Detection Results Visualization
 <p align="center">
-  <img width="80%" height="auto" src="resources/fig2.png">
-</p>
-<p align="center">
-Qualitative results for two-class segmentation task. Columns 1 and 2 present the input real COVID-19 CT images and corresponding ground truth, while Column 6 is the segmentation result of our proposed method. The first to last rows are the results when taking ground-glass opacity (a), consolidation (b), infection (c) and the lung (d) as the segmentation object, respectively.
+  <img width="70%" height="auto" src="resources/fig2.png">
 </p>
 
 <p align="center">
-  <img width="100%" height="auto" src="resources/fig3.png">
+  <img width="70%" height="auto" src="resources/fig3.png">
 </p>
-<p align="center">
-The overall flowchart of our meteorological data anomaly detection system. First determine whether the current data is empty, if it is empty, it will be supplemented with the data of the previous moment. If it is not empty, the data is sent to the VAR model, and then the current predicted value is obtained. If the current given value is within the predicted range, it is classified to be normal (predicted label=0). If it is not within the range, It is classified as abnormal (predicted label=1). In addition, our system will also refer to other detection indicators (QC Flag), the purpose is to comprehensively analysize the data of each sensor to make the results more accurate. If the comprehensive predicted results are consistent with the predicted results, the predicted results will be retained. If they are inconsistent, they will be automatically visualized. The current data is then handed over to manual inspection.
-</p>
+
 
 # Acknowlegements
 This research work is supported by the Air Force Office of Scientific Research (award number FA2386-19-1-4001).
