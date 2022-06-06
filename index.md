@@ -12,7 +12,7 @@ In applications such as weather forecasting and the prevention of natural disast
   <img width="80%" height="auto" src="resources/fig4.png">
 </p>
 <p align="center">
-The base prediction model is adpapted from autoregressive model which consider about the correlation of multiple viariant. For our task, the variants are data from nearby stations. As shown in above figure,  as the window sliding, if the data of target station is out of the range of the threshold, it would be considered as abnomal data, otherwise as the normal data.
+The base prediction model is adpapted from vector autoregression (VAR) model which consider about the correlation of multiple viariant. For our task, the variants are data from nearby stations. As shown in above figure,  as the window sliding, if the data of target station is out of the range of the threshold, it would be considered as abnomal data, otherwise as the normal data.
 </p>
 
 
@@ -23,7 +23,6 @@ The base prediction model is adpapted from autoregressive model which consider a
 In applications such as weather forecasting and the prevention of natural disasters, the analysis of meteorological data is critical. In this work, given a large amount of continuous meteorological data from neighbouring regions, we transform the data analysis into an anomaly detection task. We utilize past data from neighbouring sites to predict the target site's current weather data, and then a framework is constructed for analysis and locating the outliers. 
 </p>
 
-In this paper, we propose a novel unsupervised domain adaptation based segmentation network for COVID-19 CT infection segmentation task. The contributions of this paper can be summarized as follows: (1) we propose to make full use of synthetic data and limited unlabeled real COVID-19 CT images to jointly train the segmentation network, so as to introduce richer diversity; (2) we design a domain adaptation module to align the two domains and overcome the domain shift. It effectively improves the generalization capability of segmentation network; (3) we propose an unsupervised adversarial training scheme, in which the cross-domain adversarial loss will guide the segmentation network to learn domain-invariant feature, thus improving the segmentation performance. In the meanwhile, our training scheme is very flexible, as it can be arbitrarily combined with any segmentation network with encoder-decoder structure.
 
 # COVID-19 CT Infection Segmentation Results
 <p align="center">
