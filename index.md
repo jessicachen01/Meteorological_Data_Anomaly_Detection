@@ -35,17 +35,3 @@ The overall flowchart of our meteorological data anomaly detection system. First
 
 # Acknowlegements
 This research work is supported by the National Institute of Meteorological Sciences.
-<!-- 
-# Citation
-```
-@article{chen2022unsupervised,
-  title={Unsupervised domain adaptation based COVID-19 CT infection segmentation network},
-  author={Chen, Han and Jiang, Yifan and Loew, Murray and Ko, Hanseok},
-  journal={Applied Intelligence},
-  volume={52},
-  number={6},
-  pages={6340--6353},
-  year={2022},
-  publisher={Springer}
-}
-``` -->
