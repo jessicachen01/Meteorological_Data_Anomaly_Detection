@@ -2,7 +2,7 @@
   <img width="70%" height="auto" src="resources/fig1.png">
 </p>
 <p align="center">
-Our unsupervised segmentation network consists of two parts: the segmentation network including a feature extractor, a pixel-wise classifier, as well as the domain adaptation module (DA) including a generator and a discriminator. The black solid lines with one-way arrow indicate the data flow and the dashed lines denote reconstruction and adversarial loss. The feature extractor and pixel-wise classifier together perform the segmentation task. The DA module is introduced to overcome the domain shift through adversarial training in image space.
+In applications such as weather forecasting and the prevention of natural disasters, the analysis of meteorological data is critical. In this work, given a large amount of continuous meteorological data from neighbouring regions, we transform the data analysis into an anomaly detection task. We utilize past data from neighbouring sites to predict the target site's current weather data, and then a framework is constructed for analysis and locating the outliers. 
 </p>
 
 
