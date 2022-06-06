@@ -25,11 +25,11 @@ The overall flowchart of our meteorological data anomaly detection system. First
 
 # Anomaly Detection Results Visualization
 <p align="center">
-  <img width="70%" height="auto" src="resources/fig2.png">
+  <img width="60%" height="auto" src="resources/fig2.png">
 </p>
 
 <p align="center">
-  <img width="70%" height="auto" src="resources/fig3.png">
+  <img width="60%" height="auto" src="resources/fig3.png">
 </p>
 
 
