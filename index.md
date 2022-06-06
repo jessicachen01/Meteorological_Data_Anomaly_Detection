@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="50%" height="auto" src="resources/fig1.png">
+  <img width="80%" height="auto" src="resources/fig1.png">
 </p>
 <p align="center">
 In applications such as weather forecasting and the prevention of natural disasters, the analysis of meteorological data is critical. In this work, given a large amount of continuous meteorological data from neighbouring regions, we transform the data analysis into an anomaly detection task. We utilize past data from neighbouring sites to predict the target site's current weather data, and then a framework is constructed for analysis and locating the outliers. 
