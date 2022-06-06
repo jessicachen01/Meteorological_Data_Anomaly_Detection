@@ -36,7 +36,7 @@ Qualitative results for two-class segmentation task. Columns 1 and 2 present the
   <img width="80%" height="auto" src="resources/fig3.png">
 </p>
 <p align="center">
-Qualitative results for multi-class segmentation task. Columns 1 and 2 show the input real COVID-19 CT images and corresponding ground truth, in which the ground-glass opacity is marked in blue, consolidation is marked in green, and the lung is marked in red. Columns 7 is the segmentation result for our proposed method.
+The overall flowchart of our meteorological data anomaly detection system. First determine whether the current data is empty, if it is empty, it will be supplemented with the data of the previous moment. If it is not empty, the data is sent to the VAR model, and then the current predicted value is obtained. If the current given value is within the predicted range, it is classified to be normal (predicted label=0). If it is not within the range, It is classified as abnormal (predicted label=1). In addition, our system will also refer to other detection indicators (QC Flag), the purpose is to comprehensively analysize the data of each sensor to make the results more accurate. If the comprehensive predicted results are consistent with the predicted results, the predicted results will be retained. If they are inconsistent, they will be automatically visualized. The current data is then handed over to manual judgment.
 </p>
 
 # Acknowlegements
