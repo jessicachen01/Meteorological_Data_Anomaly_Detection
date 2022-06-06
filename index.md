@@ -34,8 +34,8 @@ The overall flowchart of our meteorological data anomaly detection system. First
 
 
 # Acknowlegements
-This research work is supported by the Air Force Office of Scientific Research (award number FA2386-19-1-4001).
-
+This research work is supported by the National Institute of Meteorological Sciences.
+<!-- 
 # Citation
 ```
 @article{chen2022unsupervised,
@@ -48,4 +48,4 @@ This research work is supported by the Air Force Office of Scientific Research (
   year={2022},
   publisher={Springer}
 }
-```
+``` -->
