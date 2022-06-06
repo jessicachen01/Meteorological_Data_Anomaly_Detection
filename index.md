@@ -1,16 +1,27 @@
 <p align="center">
-  <img width="70%" height="auto" src="resources/fig1.png">
+  <img width="50%" height="auto" src="resources/fig1.png">
 </p>
 <p align="center">
 In applications such as weather forecasting and the prevention of natural disasters, the analysis of meteorological data is critical. In this work, given a large amount of continuous meteorological data from neighbouring regions, we transform the data analysis into an anomaly detection task. We utilize past data from neighbouring sites to predict the target site's current weather data, and then a framework is constructed for analysis and locating the outliers. 
 </p>
 
 
-# Abstract
-
-Automatic segmentation of infection areas in computed tomography (CT) images has proven to be an effective diagnostic approach for COVID-19. However, due to the limited number of pixel-level annotated medical images, accurate segmentation remains a major challenge. In this paper, we propose an unsupervised domain adaptation based segmentation network to improve the segmentation performance of the infection areas in COVID-19 CT images. In particular, we propose to utilize the synthetic data and limited unlabeled real COVID-19 CT images to jointly train the segmentation network. Furthermore, we develop a novel domain adaptation module, which is used to align the two domains and effectively improve the segmentation network’s generalization capability to the real domain. Besides, we propose an unsupervised adversarial training scheme, which encourages the segmentation network to learn the domain-invariant feature, so that the robust feature can be used for segmentation. Experimental results demonstrate that our method can achieve state-of-the-art segmentation performance on COVID-19 CT images.
-
 # Overview
+
+<p align="center">
+  <img width="70%" height="auto" src="resources/fig4.png">
+</p>
+<p align="center">
+In applications such as weather forecasting and the prevention of natural disasters, the analysis of meteorological data is critical. In this work, given a large amount of continuous meteorological data from neighbouring regions, we transform the data analysis into an anomaly detection task. We utilize past data from neighbouring sites to predict the target site's current weather data, and then a framework is constructed for analysis and locating the outliers. 
+</p>
+
+
+<p align="center">
+  <img width="50%" height="auto" src="resources/fig5.png">
+</p>
+<p align="center">
+In applications such as weather forecasting and the prevention of natural disasters, the analysis of meteorological data is critical. In this work, given a large amount of continuous meteorological data from neighbouring regions, we transform the data analysis into an anomaly detection task. We utilize past data from neighbouring sites to predict the target site's current weather data, and then a framework is constructed for analysis and locating the outliers. 
+</p>
 
 In this paper, we propose a novel unsupervised domain adaptation based segmentation network for COVID-19 CT infection segmentation task. The contributions of this paper can be summarized as follows: (1) we propose to make full use of synthetic data and limited unlabeled real COVID-19 CT images to jointly train the segmentation network, so as to introduce richer diversity; (2) we design a domain adaptation module to align the two domains and overcome the domain shift. It effectively improves the generalization capability of segmentation network; (3) we propose an unsupervised adversarial training scheme, in which the cross-domain adversarial loss will guide the segmentation network to learn domain-invariant feature, thus improving the segmentation performance. In the meanwhile, our training scheme is very flexible, as it can be arbitrarily combined with any segmentation network with encoder-decoder structure.
 
